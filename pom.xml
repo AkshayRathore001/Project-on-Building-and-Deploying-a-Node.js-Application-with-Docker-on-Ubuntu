@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>your-group-id</groupId>
+    <artifactId>your-artifact-id</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <sonar.language>js</sonar.language>
+        <sonar.sources>src</sonar.sources>
+        <sonar.host.url>https://sonarqube.onsumaye.com</sonar.host.url>
+        <sonar.login>sqp_318df2e2049e462ce2a65d302409b756a4b6ff56</sonar.login>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.0.2155</version>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
