@@ -9,14 +9,6 @@
     <artifactId>your-artifact-id</artifactId>
     <version>1.0.0</version>
 
-    <properties>
-        <sonar.language>js</sonar.language>
-        <sonar.sources>src</sonar.sources>
-        <sonar.host.url>https://sonarqube.onsumaye.com</sonar.host.url>
-        <sonar.login>jenkins</sonar.login>
-        <sonar.password>jenkins</sonar.password>
-    </properties>
-
     <build>
         <plugins>
             <plugin>
