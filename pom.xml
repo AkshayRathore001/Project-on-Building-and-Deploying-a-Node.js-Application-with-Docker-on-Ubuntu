@@ -13,7 +13,8 @@
         <sonar.language>js</sonar.language>
         <sonar.sources>src</sonar.sources>
         <sonar.host.url>https://sonarqube.onsumaye.com</sonar.host.url>
-        <sonar.login>sqp_318df2e2049e462ce2a65d302409b756a4b6ff56</sonar.login>
+        <sonar.login>admin</sonar.login>
+        <sonar.password>$O0n@arA_RQub3</sonar/password>
     </properties>
 
     <build>
